@@ -1,0 +1,117 @@
+:root{
+    --o-red:#ff6b6b;
+    --o-pink:#e94dc2;
+    --o-orange:#ea8b3e;
+    --o-yellow:#fffd6b;
+    --o-green:#38f64b;
+    --o-blue:#6bfff0;
+    --o-brown:#cf8d4f;
+    --o-white:#ffffff;
+    --o-black:#000000;
+
+    --font-size-s:0.9rem;
+    --font-size-n:1rem;
+    --font-size-m:1.12rem;
+    --font-size-l:1.5rem;
+    --font-size-xl:2rem;
+    --font-size-xxl:2.3rem;
+
+    --font-weight-normal:400;
+    --font-weight-medium:500;
+    --font-weight-semibold:600;
+    --font-weight-bold:700;
+
+    --border-radius-s:8px;
+    --border-radius-p:10px;
+    --border-radius-n:20px;
+    --border-radius-m:30px;
+    --border-radius-l:50px;
+
+    --border-radius-circle:50%;
+
+    --site-max-width:1300px;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: var(--o-blue);
+}
+
+header .navbar{
+    display: flex;
+    margin: 0 auto;
+    padding: var(--border-radius-n);
+    max-width: var(--site-max-width);
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .navbar .logo-text{
+    color: var(--o-black);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+}
+
+header .navbar .nav-menu{
+    gap: var(--font-size-s);
+    display: flex;
+}
+
+header .navbar .bi{
+    display: none;
+}
+
+header .navbar .nav-menu .nav-link{
+    padding: 10px 18px;
+    color: var(--o-black);
+    font-size: var(--font-size-m);
+    border-radius: var(--border-radius-m);
+    transform: 0.3s ease;
+}
+
+header .navbar .nav-menu .nav-link:hover{
+    color: var(--o-black);
+    background: var(--o-white);
+}
+
+header .navbar .nav-menu.show{
+    right: 0;
+}
+
+@media screen and (max-width: 900px) {
+    header .nav-menu{
+        position: fixed;
+        background: var(--o-blue);
+        right: -450px;
+        height: 100%;
+        width: 260px;
+        top: 83px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: var(--border-radius-s);
+    }
+
+    header .navbar .bi{
+        display: block;
+        color: var(--o-black);
+        font-size: var(--font-size-l);
+        font-weight: var(--font-weight-normal);
+    }
+
+    header a{
+        color: var(--o-white);
+    }
+
+    header .navbar .nav-menu .nav-link{
+        display: block;
+        margin-top: var(--border-radius-s);
+        padding: 10px 20px;
+        color: var(--o-black);
+        font-size: var(--font-size-s);
+    }
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "home": "Hello",
+    "home_name": "I'm Prasanth",
+    "home_Role": "And I'm a ",
+    "home_developer": ["Front End Developer", "Web Developer"],
+    "home_paragraph": "Passionate Front-End Developer skilled in React.js, responsive design, and delivering user-centric, high-quality web solutions.",
+    "navbar_name": "Portfolio",
+    "menu_items": [
+      { "label": "Home", "href": "#" },
+      { "label": "About", "href": "#about" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Skill", "href": "#skill" },
+      { "label": "Education", "href": "#education" },
+      { "label": "Experience", "href": "#experience" },
+      { "label": "Project", "href": "#project" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  }
+]

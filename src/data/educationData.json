@@ -1,0 +1,26 @@
+[
+  {
+    "period": "2015 - 2016",
+    "title": "Christ Matric Hr Sec School",
+    "location": "Gollapatti, Krishnagiri",
+    "description": "From an early age, I became fascinated with computers and programming. Starting with basic HTML and CSS, I gradually expanded my skills to include JavaScript and various frameworks.",
+    "image": "../../image/download (3).jpg",
+    "button": "/sslc"
+  },
+  {
+    "period": "2017 - 2018",
+    "title": "Sri Sathya Sai Matric Hr Sec School",
+    "location": "Kundarapalli, Krishnagiri",
+    "description": "During my university years, I studied computer science and gained hands-on experience through internships and freelance projects. This period fueled my passion for creating innovative solutions and solving complex problems.",
+    "image": "../../image/download (2).jpg",
+    "button": "/hl"
+  },
+  {
+    "period": "2018 - 2022",
+    "title": "Bharathidasan Engineering College",
+    "location": "Natrampalli, Tirupattur",
+    "description": "Throughout my career, I have consistently sought opportunities to refine my skills and stay updated with the latest technologies. I strive for excellence in every project and aim to deliver valuable solutions.",
+    "image": "../../image/download (1).jpg",
+    "button": "/"
+  }
+]

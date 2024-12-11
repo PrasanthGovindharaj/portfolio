@@ -1,0 +1,113 @@
+.education-container {
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  padding: 30px 0;
+}
+
+.education-subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.education {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.education-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.education-image img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+.education-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.education-content h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+.education-content h3 {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.education-content p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.education-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.education-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-10px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .education-subtitle {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .education {
+    grid-template-columns: 1fr;
+  }
+
+  .education-content {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .education-content h2, .education-content h3, .education-content p {
+    text-align: center;
+  }
+
+  .education-button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}

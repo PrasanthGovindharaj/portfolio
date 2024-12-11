@@ -7,7 +7,7 @@ import Hero from './components/Hero';
 import Home from './components/home/Home';
 import About1 from './components/about/About1';
 import Contact from './components/contact/Contact';
-import Eduction from './components/eduction/Eduction';
+import Education from './components/education/Education';
 import Experience from './components/experience/Experience';
 import Project from './components/project/Project';
 import Skill from './components/skill/Skill';
@@ -23,7 +23,7 @@ function App() {
           <Route path="#" element={<Home />} />
           <Route path="#about" element={<About1 />} />
           <Route path="#contact" element={<Contact />} />
-          <Route path="#eduction" element={<Eduction />} />
+          <Route path="#education" element={<Education />} />
           <Route path="#experience" element={<Experience />} />
           <Route path="#project" element={<Project />} />
           <Route path="#skill" element={<Skill />} />

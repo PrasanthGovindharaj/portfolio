@@ -1,12 +1,13 @@
 import React from "react";
 import Home from "./home/Home";
 import About1 from "./about/About1";
-import Eduction from "./eduction/Eduction";
+import Education from "./education/Education";
 import Experience from "./experience/Experience";
 import Skill from "./skill/Skill";
 import Project from "./project/Project";
 import Contact from "./contact/Contact";
 import Footer from "./footer/Footer";
+import Services from "./Services/Services";
 
 const Hero = () => {
   return (
@@ -17,14 +18,17 @@ const Hero = () => {
       <div id="about">
         <About1 />
       </div>
-      <div id="eduction">
-        <Eduction />
-      </div>
-      <div id="experience">
-        <Experience />
+      <div id="services">
+        <Services />
       </div>
       <div id="skill">
         <Skill />
+      </div>
+      <div id="education">
+        <Education />
+      </div>
+      <div id="experience">
+        <Experience />
       </div>
       <div id="project">
         <Project />

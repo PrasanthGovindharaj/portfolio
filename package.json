@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/portfolio-prasanth",
+  "homepage": "https://prasanthgovindharaj.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +9,6 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
-    "gh-pages": "^6.2.0",
     "portfolio": "file:",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.5",
@@ -46,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }

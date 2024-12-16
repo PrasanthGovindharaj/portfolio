@@ -1,0 +1,22 @@
+[
+  {
+    "period": "Feb 2024 - Aug 2024",
+    "title": "TechStorey Systems Pvt Ltd",
+    "location": "JP Nagar, Bengaluru",
+    "description": "From an early age, I became fascinated with computers and programming. Starting with basic HTML and CSS, I gradually expanded my skills to include JavaScript and various frameworks.",
+    "projects": [
+      {
+        "name": "Project 1: React Website Development",
+        "description": "Developed a fully responsive website using React.js, integrated with APIs for dynamic content.",
+        "technologies": "React js, JavaScript, CSS, HTML, MySql, Node.js",
+        "role": "Software Developer"
+      },
+      {
+        "name": "Project 2: E-commerce Web Application",
+        "description": "Built a complete e-commerce web application, including payment integration and user authentication.",
+        "technologies": "React js, Node.js, Java",
+        "role": "Software Tester"
+      }
+    ]
+  }
+]

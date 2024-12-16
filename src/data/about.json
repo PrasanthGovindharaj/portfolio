@@ -1,0 +1,22 @@
+{
+  "title": "About",
+  "description": "I am a passionate Front-End Developer with expertise in React.js and responsive web design. I have hands-on experience in developing user-centric applications, creating intuitive admin panels, and performing comprehensive manual testing to ensure quality. Proficient in modern web technologies, I am committed to delivering innovative and high-quality solutions. My focus is on crafting seamless user experiences and contributing to impactful projects that drive value and innovation.",
+  "links": [
+    {
+      "name": "linkedin",
+      "iconClass": "bi bi-linkedin",
+      "url": "https://linkedin.com/in/yourprofile"
+    },
+    {
+      "name": "github",
+      "iconClass": "bi bi-github",
+      "url": "https://github.com/yourprofile"
+    },
+    {
+      "name": "whatsapp",
+      "iconClass": "bi bi-whatsapp",
+      "url": "https://wa.me/yourwhatsappnumber"
+    }
+  ],
+  "contactLink": "#contact"
+}

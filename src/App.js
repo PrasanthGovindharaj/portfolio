@@ -1,17 +1,17 @@
-import React from 'react';
-import './App.css';
-import {Route, BrowserRouter as Router, Routes} from 'react-router-dom'
-import Navbar from './page/Navbar';
-import "bootstrap-icons/font/bootstrap-icons.css"
-import Hero from './components/Hero';
-import Home from './components/home/Home';
-import About1 from './components/about/About1';
-import Contact from './components/contact/Contact';
-import Eduction from './components/eduction/Eduction';
-import Experience from './components/experience/Experience';
-import Project from './components/project/Project';
-import Skill from './components/skill/Skill';
-import Footer from './components/footer/Footer';
+import React from "react";
+import "./App.css";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Navbar from "./page/Navbar";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import Hero from "./components/Hero";
+import Home from "./components/home/Home";
+import About1 from "./components/about/About1";
+import Contact from "./components/contact/Contact";
+import Education1 from "./components/education/Education1";
+import Experience from "./components/experience/Experience";
+import Project from "./components/project/Project";
+import Skill from "./components/skill/Skill";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
           <Route path="#" element={<Home />} />
           <Route path="#about" element={<About1 />} />
           <Route path="#contact" element={<Contact />} />
-          <Route path="#eduction" element={<Eduction />} />
+          <Route path="#education" element={<Education1 />} />
           <Route path="#experience" element={<Experience />} />
           <Route path="#project" element={<Project />} />
           <Route path="#skill" element={<Skill />} />

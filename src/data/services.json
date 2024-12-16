@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "icon": "bi bi-code",
+    "title": "Front End Developer",
+    "description": "Skilled in React.js, HTML, CSS, and JavaScript to build responsive user interfaces.",
+    "skills": ["React.js", "HTML", "CSS", "JavaScript", "Bootstrap"]
+  },
+  {
+    "id": 2,
+    "icon": "bi bi-back",
+    "title": "Back End Developer",
+    "description": "Experience with Node.js, JavaScript, and database management for server-side development.",
+    "skills": ["Node.js", "JavaScript", "Java", "MySQL","PostMen"]
+  },
+  {
+    "id": 3,
+    "icon": "bi bi-circle-square",
+    "title": "Full Stack Developer",
+    "description": "Combining Front End and Back End development to create fully functional web applications.",
+    "skills": ["React.js",  "Java spring boot", "Git","Github"]
+  }
+]

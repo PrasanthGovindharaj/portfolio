@@ -1,60 +1,57 @@
-import React, { useState } from 'react'
-import './navbar.css'
+import React, { useState, useEffect } from "react";
+import "./navbar.css";
+import data from "../data/navbar.json";
 
 const Navbar = () => {
-    const [isMenuOpen, setIsMenuOpen]=useState(false);
-    const toggleMenu = () =>{
-        setIsMenuOpen(!isMenuOpen)
-    }
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 10) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const navConfig = data[0];
+
   return (
-    <header className={`header ${isMenuOpen ? "showMenu" : ""}`}>
+    <header
+      className={`header ${isSticky ? "sticky" : ""} ${
+        isMenuOpen ? "showMenu" : ""
+      }`}
+    >
       <nav className="navbar">
-        <h2 className="logo-text">Prasanth J G</h2>
+        <h2 className="logo-text">{navConfig.navbar_name}</h2>
         <i
           className={`bi ${isMenuOpen ? "bi-x-lg" : "bi-list"}`}
           aria-label={isMenuOpen ? "close" : "open"}
           onClick={toggleMenu}
         ></i>
         <ul className={`nav-menu ${isMenuOpen ? "show" : ""}`}>
-          <li>
-            <a href="/" className="nav-link">
-              Home
-            </a>
-          </li>
-          <li>
-            <a href="#about" className="nav-link">
-              About
-            </a>
-          </li>
-          <li>
-            <a href="#skill" className="nav-link">
-              Skill
-            </a>
-          </li>
-          <li>
-            <a href="#experience" className="nav-link">
-              Experience
-            </a>
-          </li>
-          <li>
-            <a href="#eduction" className="nav-link">
-              Eduction
-            </a>
-          </li>
-          <li>
-            <a href="#project" className="nav-link">
-              Project
-            </a>
-          </li>
-          <li>
-            <a href="#contact" className="nav-link">
-              Contact
-            </a>
-          </li>
+          {navConfig.menu_items.map((item, index) => (
+            <li key={index}>
+              <a href={item.href} className="nav-link">
+                {item.label}
+              </a>
+            </li>
+          ))}
         </ul>
       </nav>
     </header>
   );
-}
+};
 
-export default Navbar
+export default Navbar;

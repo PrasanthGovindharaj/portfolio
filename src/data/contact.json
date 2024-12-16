@@ -1,0 +1,61 @@
+{
+  "contactDetails": [
+    {
+      "id": 1,
+      "icon": "bi bi-person",
+      "label": "Prasanth"
+    },
+    {
+      "id": 2,
+      "icon": "bi bi-envelope",
+      "label": "prasanthjg56@gmail.com"
+    },
+    {
+      "id": 3,
+      "icon": "bi bi-telephone-fill",
+      "label": "+91 6382608201"
+    },
+    {
+      "id": 4,
+      "icon": "bi bi-geo-alt",
+      "label": "102/2, 3rd Cross Rd, Industrial Area, Stage 2, BTM Layout, Bengaluru, Karnataka 560076"
+    }
+  ],
+  "formFields": [
+    {
+      "id": 1,
+      "type": "text",
+      "name": "name",
+      "placeholder": "Name*",
+      "ariaLabel": "Name"
+    },
+    {
+      "id": 2,
+      "type": "email",
+      "name": "email",
+      "placeholder": "Email*",
+      "ariaLabel": "Email"
+    },
+    {
+      "id": 3,
+      "type": "text",
+      "name": "companyName",
+      "placeholder": "Company Name*",
+      "ariaLabel": "Company Name"
+    },
+    {
+      "id": 4,
+      "type": "text",
+      "name": "companyLocation",
+      "placeholder": "Company Location*",
+      "ariaLabel": "Company Location"
+    },
+    {
+      "id": 5,
+      "type": "textarea",
+      "name": "message",
+      "placeholder": "Message*",
+      "ariaLabel": "Message"
+    }
+  ]
+}

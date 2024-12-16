@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "category": "Website",
+    "image": "default-image.jpg",
+    "title": "Website Project 1",
+    "github": "#",
+    "website": "#"
+  },
+  {
+    "id": 2,
+    "category": "Navbar",
+    "image": "default-image.jpg",
+    "title": "Navbar Project 1",
+    "github": "#",
+    "website": "#"
+  },
+  {
+    "id": 3,
+    "category": "Button",
+    "image": "default-image.jpg",
+    "title": "Button Project 1",
+    "github": "#",
+    "website": "#"
+  },
+  {
+    "id": 4,
+    "category": "Other",
+    "image": "default-image.jpg",
+    "title": "Other Project 1",
+    "github": "#",
+    "website": "#"
+  },
+  {
+    "id": 5,
+    "category": "Website",
+    "image": "default-image.jpg",
+    "title": "Website Project 2",
+    "github": "#",
+    "website": "#"
+  },
+  {
+    "id": 6,
+    "category": "Navbar",
+    "image": "default-image.jpg",
+    "title": "Navbar Project 2",
+    "github": "#",
+    "website": "#"
+  },
+  {
+    "id": 7,
+    "category": "Button",
+    "image": "default-image.jpg",
+    "title": "Button Project 2",
+    "github": "#",
+    "website": "#"
+  },
+  {
+    "id": 8,
+    "category": "Other",
+    "image": "default-image.jpg",
+    "title": "Other Project 2",
+    "github": "#",
+    "website": "#"
+  }
+]
